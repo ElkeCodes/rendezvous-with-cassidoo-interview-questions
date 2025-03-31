@@ -1,0 +1,12 @@
+import { describe, expect, test } from "vitest";
+import { rotateArray } from "./0008";
+
+describe("day #0007", () => {
+  test("example", () => {
+    expect(rotateArray([1, 2, 3, 4, 5], 2)).toStrictEqual([4, 5, 1, 2, 3]);
+  });
+  test("extremes", () => {
+    expect(rotateArray([1, 2, 3, 4, 5], 25)).toStrictEqual([1, 2, 3, 4, 5]);
+    expect(rotateArray([1, 2, 3, 4, 5], 0)).toStrictEqual([1, 2, 3, 4, 5]);
+  });
+});
