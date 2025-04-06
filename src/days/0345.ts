@@ -6,7 +6,7 @@ interface Coordinate {
   isIsland: boolean;
 }
 
-const getSurroundingCoordinates = (
+export const getSurroundingCoordinates = (
   coordinate: Pick<Coordinate, "x" | "y">,
   max_x: number,
   max_y: number,
@@ -35,11 +35,11 @@ export function largestIsland(input: Island): number {
       let toVisit = [coordinate];
       let visited = new Set<string>();
       while (toVisit.length > 0) {
-        let { x, y } = JSON.parse(toVisit.pop()!);
-        visited.add(JSON.stringify({ x, y }));
-        if (data.get(JSON.stringify({ x, y }))) {
+        let current = toVisit.pop()!;
+        visited.add(current);
+        if (data.get(current)) {
           size++;
-          getSurroundingCoordinates({ x, y }, maxX, maxY)
+          getSurroundingCoordinates(JSON.parse(current), maxX, maxY)
             .filter(
               ({ x: newX, y: newY }) =>
                 !visited.has(JSON.stringify({ x: newX, y: newY })) &&
@@ -47,7 +47,7 @@ export function largestIsland(input: Island): number {
                   (old) => old === JSON.stringify({ x: newX, y: newY }),
                 ),
             )
-            .forEach(({ x, y }) => toVisit.push(JSON.stringify({ x, y })));
+            .forEach((next) => toVisit.push(JSON.stringify(next)));
         }
       }
       maxSize = Math.max(maxSize, size);
