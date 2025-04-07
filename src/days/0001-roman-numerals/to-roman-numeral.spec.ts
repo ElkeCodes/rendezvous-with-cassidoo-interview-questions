@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { toRomanNumeral } from "./0001";
+import { toRomanNumeral } from "./to-roman-numeral";
 
 describe("day #0001", () => {
   test("toRomanNumeral", () => {

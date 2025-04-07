@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { isAnagram } from "./0003";
+import { isAnagram } from "./is-anagram";
 
 describe("day #0003", () => {
   test("isAnagram", () => {

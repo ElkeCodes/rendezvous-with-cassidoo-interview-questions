@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { postfix } from "./0002";
+import { postfix } from "./postfix";
 
 describe("day #0002", () => {
   test("example", () => {
