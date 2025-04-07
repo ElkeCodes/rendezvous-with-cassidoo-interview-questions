@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { getLeylandNumbers } from "./get-leyland-numbers";
 
-describe("day #399", () => {
+describe("day #0399", () => {
   test("examples", () => {
     expect(getLeylandNumbers(1)).toStrictEqual([8]);
     expect(getLeylandNumbers(5)).toStrictEqual([8, 17, 32, 54, 57]);

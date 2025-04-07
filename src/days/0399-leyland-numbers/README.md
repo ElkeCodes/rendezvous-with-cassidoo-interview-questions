@@ -16,7 +16,7 @@ getLeylandNumbers(5)[(8, 17, 32, 54, 57)];
 
 ## Notes
 
-Table of leyland numbers:
+### Table of leyland numbers
 
 | n   | x   | y   | leyland number |
 | --- | --- | --- | -------------- |
@@ -34,8 +34,18 @@ Table of leyland numbers:
 | 12  | 2   | 9   | 593            |
 | 13  | 3   | 6   | 945            |
 
+### How it works
+```
 getLeylandNumbers(n)
 -> generate n^2 amount of numbers (n^2 as an upper limit because it just felt right... there is probably a good explanation or even a better limit)
 -> get next n^2 numbers
 -> sort them 
 -> only take n first
+```
+
+### Sources
+
+https://oeis.org/A076980
+https://oeis.org/A076980/list
+http://villemin.gerard.free.fr/aNombre/TYPDENOM/Leyland.htm
+https://www.numbersaplenty.com/set/Leyland_number/
