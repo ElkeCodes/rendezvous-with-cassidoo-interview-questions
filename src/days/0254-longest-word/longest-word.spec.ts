@@ -7,4 +7,7 @@ describe("day #0254", () => {
       longestWord("abppplee", ["able", "ale", "apple", "bale", "kangaroo"]),
     ).toBe("apple");
   });
+  test("nothing found", () => {
+    expect(longestWord("apple", ["able"])).toBe("");
+  });
 });
