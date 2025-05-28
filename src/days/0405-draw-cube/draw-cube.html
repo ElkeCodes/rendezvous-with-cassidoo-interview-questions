@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Draw Cube Demo</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 0rem 1rem;
+      }
+      .size-container {
+        margin: 1rem 0;
+        display: grid;
+        grid-template-columns: min-content 2rem 10rem;
+        align-items: center;
+        gap: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Draw Cube Demo</h1>
+
+    <div class="size-container">
+      <label for="size">Size:</label>
+      <span id="value"></span>
+      <input type="range" id="size" min="1" max="100" value="4" step="1" />
+    </div>
+    <pre id="cube"></pre>
+
+    <script type="module">
+      import { calculateCubePixels } from "./draw-cube.js";
+      window.addEventListener("load", (event) => {
+        const range = document.getElementById("size");
+
+        function handleSizeChange() {
+          const value = range.value;
+          document.getElementById("value").textContent = value;
+          document.getElementById("cube").textContent = calculateCubePixels(
+            parseInt(value),
+          ).join("\n");
+        }
+
+        range.addEventListener("input", handleSizeChange);
+
+        handleSizeChange();
+      });
+    </script>
+  </body>
+</html>

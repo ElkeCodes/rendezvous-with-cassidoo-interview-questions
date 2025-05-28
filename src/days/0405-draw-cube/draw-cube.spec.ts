@@ -30,4 +30,15 @@ describe("day #0405", () => {
       ["+--------+"],
     ]);
   });
+
+  test("debug n=1", () => {
+    const logSpy = vi.spyOn(console, "log");
+    drawCube(1);
+    expect(logSpy.mock.calls).toStrictEqual([
+      [" +--+"],
+      ["+--+|"],
+      ["|  |+"],
+      ["+--+"],
+    ]);
+  });
 });
