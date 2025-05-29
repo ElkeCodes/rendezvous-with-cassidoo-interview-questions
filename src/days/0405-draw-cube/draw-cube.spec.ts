@@ -1,5 +1,5 @@
 import { describe, expect, test, vi } from "vitest";
-import { drawCube } from "./draw-cube";
+import { drawCube } from "./draw-cube.ts";
 
 describe("day #0405", () => {
   test("example n=2", () => {
