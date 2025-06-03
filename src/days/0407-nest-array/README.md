@@ -1,0 +1,15 @@
+# Nest array
+
+## Interview question
+
+https://buttondown.com/cassidoo/archive/consistent-actions-produce-results-more-often/
+
+Turn an array of integers into a nested array. You can think of this as the opposite of flattening an array!
+
+Examples:
+
+nestArray([1, 2, 3, 4])
+> [1, [2, [3, [4]]]]
+
+nestArray([1])
+> [1]
