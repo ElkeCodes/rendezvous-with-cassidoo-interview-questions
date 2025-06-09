@@ -30,3 +30,8 @@ Example:
 |        |/
 +--------+
 "
+
+## Notes
+
+Compiled with 
+`npx tsc src/days/0405-draw-cube/draw-cube.ts --target es5 --module esnext --lib esnext,dom`
