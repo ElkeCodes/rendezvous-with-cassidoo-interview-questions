@@ -6,7 +6,7 @@ function* trafficSequenceGenerator(
   const validSequence: Array<TrafficLightColour> = ["red", "green", "yellow"];
   let index = validSequence.findIndex((light) => light === start);
   while (true) {
-    yield validSequence[index++ % 3];
+    yield validSequence[index++ % validSequence.length];
   }
 }
 
