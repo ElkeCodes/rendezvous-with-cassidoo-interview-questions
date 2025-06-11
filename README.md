@@ -27,3 +27,10 @@ This repository uses the following tech stack:
 3. `npm run test`
 
 Currently the code only runs as tests but I'm planning on adding a proper SPA around it to have certain or all code be runable in the browser.
+
+## Todos
+
+ - Move `partition` function separately
+ - Test `partition` function
+ - Ensure drawcube.js is tested
+ - Create small SPA to showcase the days
