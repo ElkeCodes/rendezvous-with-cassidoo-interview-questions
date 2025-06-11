@@ -1,6 +1,6 @@
 import { factorial } from "../shared/factorial";
 
-export function countPerfectlyRoundCookies(input: number): number {
+export function zeroesEndingFactorial(input: number): number {
   function inner(n: bigint): number {
     if (n % 10n !== 0n) {
       return 0;
