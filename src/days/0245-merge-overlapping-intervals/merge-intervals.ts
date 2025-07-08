@@ -1,16 +1,6 @@
-type Interval = [number, number];
+import { partition } from "../shared/partition";
 
-const partition = <T>(
-  arr: Array<T>,
-  fn: (value: T) => boolean,
-): [Array<T>, Array<T>] =>
-  arr.reduce(
-    (acc, val) => {
-      acc[fn(val) ? 0 : 1].push(val);
-      return acc;
-    },
-    [[] as Array<T>, [] as Array<T>],
-  );
+type Interval = [number, number];
 
 const isOverlapping = (interval1: Interval, interval2: Interval): boolean =>
   interval2[0] < interval1[0]
