@@ -1,0 +1,17 @@
+import { describe, expect, test } from "vitest";
+import { grandFinaleStart } from "./grand-finale-start";
+
+describe("day #0412", () => {
+  test("example", () => {
+    expect(
+      grandFinaleStart([
+        { height: 10, size: 6, velocity: 4 },
+        { height: 13, size: 3, velocity: 2 },
+        { height: 17, size: 6, velocity: 3 },
+        { height: 21, size: 8, velocity: 4 },
+        { height: 19, size: 5, velocity: 3 },
+        { height: 18, size: 4, velocity: 4 },
+      ]),
+    ).toBe(2);
+  });
+});
