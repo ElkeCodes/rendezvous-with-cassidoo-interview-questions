@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { rotateArray } from "./0008";
+import { rotateArray } from "./rotate-array";
 
 describe("day #0008", () => {
   test("example", () => {
