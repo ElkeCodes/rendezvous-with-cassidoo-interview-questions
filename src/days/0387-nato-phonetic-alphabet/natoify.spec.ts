@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { natoify } from "./0387";
+import { natoify } from "./natoify";
 
 describe("day #0387", () => {
   test("examples", () => {

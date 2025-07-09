@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { getSurroundingCoordinates, largestIsland } from "./0345";
+import { getSurroundingCoordinates, largestIsland } from "./largest-island";
 
 describe("day #0345", () => {
   test("examples", () => {

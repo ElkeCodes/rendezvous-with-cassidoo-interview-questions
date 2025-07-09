@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { permute } from "./0386";
+import { permute } from "./permute";
 
 describe("day #0386", () => {
   test("example", () => {

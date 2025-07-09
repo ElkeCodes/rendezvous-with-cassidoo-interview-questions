@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { longestSubsequence } from "./0388";
+import { longestSubsequence } from "./longest-subsequence";
 
 describe("day #0388", () => {
   test("examples", () => {

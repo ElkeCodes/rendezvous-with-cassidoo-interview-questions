@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { uniqueSum } from "./0346";
+import { uniqueSum } from "./unique-sum";
 
 describe("day #0346", () => {
   test("examples", () => {

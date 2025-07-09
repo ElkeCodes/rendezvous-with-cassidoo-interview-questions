@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { mealPrep } from "./0380";
+import { mealPrep } from "./meal-prep";
 
 describe("day #0380", () => {
   test("examples", () => {

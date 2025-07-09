@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { findLongestTimeGap } from "./0398";
+import { findLongestTimeGap } from "./find-longest-time-gap";
 
 describe("day #0398", () => {
   test("examples", () => {

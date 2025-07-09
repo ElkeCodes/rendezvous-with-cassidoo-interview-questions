@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { rollCall } from "./0381";
+import { rollCall } from "./roll-call";
 
 describe("day #0381", () => {
   test("examples", () => {

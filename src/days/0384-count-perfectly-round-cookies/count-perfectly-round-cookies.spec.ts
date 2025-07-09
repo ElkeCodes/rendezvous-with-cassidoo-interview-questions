@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { countPerfectlyRoundCookies } from "./0384";
+import { countPerfectlyRoundCookies } from "./count-perfectly-round-cookies";
 
 describe("day #0384", () => {
   test("examples", () => {

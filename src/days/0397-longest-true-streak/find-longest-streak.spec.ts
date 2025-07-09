@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { findLongestStreak } from "./0397";
+import { findLongestStreak } from "./find-longest-streak";
 
 describe("day #0397", () => {
   test("examples", () => {
