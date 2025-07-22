@@ -24,7 +24,7 @@ describe("day #0414", () => {
         { name: "case", arrivalDays: 0, assemblyHours: 2 },
       ]),
     ).toBe(12);
-  })
+  });
 
   test("assembling takes more than a day for the last part", () => {
     expect(
@@ -36,7 +36,7 @@ describe("day #0414", () => {
         { name: "case", arrivalDays: 3, assemblyHours: 25 },
       ]),
     ).toBe(97);
-  })
+  });
 
   test("assembling takes more than a day for the second to last part", () => {
     expect(
@@ -48,7 +48,7 @@ describe("day #0414", () => {
         { name: "case", arrivalDays: 3, assemblyHours: 2 },
       ]),
     ).toBe(80);
-  })
+  });
 
   test("assembling takes more than a day for a part that does not impact the final time", () => {
     expect(
@@ -60,5 +60,17 @@ describe("day #0414", () => {
         { name: "case", arrivalDays: 3, assemblyHours: 2 },
       ]),
     ).toBe(74);
-  })
+  });
+
+  test("assembling takes more than a day for multiple parts, leading to an astounding delay", () => {
+    expect(
+      minAssemblyTime([
+        { name: "keycaps", arrivalDays: 1, assemblyHours: 26 },
+        { name: "switches", arrivalDays: 2, assemblyHours: 3 },
+        { name: "stabilizers", arrivalDays: 0, assemblyHours: 240 },
+        { name: "PCB", arrivalDays: 1, assemblyHours: 4 },
+        { name: "case", arrivalDays: 3, assemblyHours: 2 },
+      ]),
+    ).toBe(275);
+  });
 });
