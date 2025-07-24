@@ -1,24 +1,13 @@
-# Minimum assembly time of mechanical keyboard
+# Palindromes in files
 
 ## Data
 
-Tags: #parsing, #string, #array, #coordinates
-Newsletter: https://buttondown.com/cassidoo/archive/7309/
+Tags: #palindrome, #string, #file
+Newsletter: https://buttondown.com/cassidoo/archive/hope-is-being-able-to-see-that-there-is-light/
 
 ## Interview question
 
-You’re assembling a custom mechanical keyboard. Each required part has a delivery time in days and an assembly time in hours. You can only assemble a part after it arrives, and you can only work on one part at a time. Given an array of parts where each part is { name, arrivalDays, assemblyHours }, return the minimum total hours needed to finish assembling all parts, starting from hour 0.
+You are given three files named first_page.txt, second_page.txt, and third_page.txt with the occurrence of at least one palindrome in each of them. Write a script to find the following:
 
-Example:
-
-```javascript
-minAssemblyTime([
-  { name: "keycaps", arrivalDays: 1, assemblyHours: 2 },
-  { name: "switches", arrivalDays: 2, assemblyHours: 3 },
-  { name: "stabilizers", arrivalDays: 0, assemblyHours: 1 },
-  { name: "PCB", arrivalDays: 1, assemblyHours: 4 },
-  { name: "case", arrivalDays: 3, assemblyHours: 2 }
-])
-
-// > 74
-```
+- The exact number of palindromes in each file.
+- The line numbers of the palindromes in each file.
