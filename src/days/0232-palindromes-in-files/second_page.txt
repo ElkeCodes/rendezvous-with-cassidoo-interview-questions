@@ -1,0 +1,6 @@
+This
+contains
+no
+palindromes
+at
+all
