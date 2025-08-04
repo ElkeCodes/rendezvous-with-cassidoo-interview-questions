@@ -1,19 +1,22 @@
-export class ElkesHashMap {
-  private data: Array<number>;
+export class ElkesHashMap<
+  TValue extends number | string | symbol | object,
+  TKey extends number,
+> {
+  private data: Array<TValue>;
 
   constructor() {
     this.data = [];
   }
 
-  public put(key: number, value: number): void {
+  public put(key: TKey, value: TValue): void {
     this.data[key] = value;
   }
 
-  public get(key: number): number {
+  public get(key: TKey): TValue {
     return this.data[key] ?? -1;
   }
 
-  public remove(key: number): void {
+  public remove(key: TKey): void {
     delete this.data[key];
   }
 }

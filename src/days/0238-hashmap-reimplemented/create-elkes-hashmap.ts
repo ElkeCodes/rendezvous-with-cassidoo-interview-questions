@@ -1,15 +1,18 @@
-export function createElkesHashmap() {
-  const data: Array<number> = [];
+export function createElkesHashmap<
+  TValue extends number | string | symbol | object,
+  TKey extends number,
+>() {
+  const data: Array<TValue> = [];
 
-  const put = (key: number, value: number): void => {
+  const put = (key: TKey, value: TValue): void => {
     data[key] = value;
   };
 
-  const get = (key: number): number => {
+  const get = (key: TKey): TValue => {
     return data[key] ?? -1;
   };
 
-  const remove = (key: number): void => {
+  const remove = (key: TKey): void => {
     delete data[key];
   };
 

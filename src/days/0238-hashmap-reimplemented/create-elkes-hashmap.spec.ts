@@ -18,4 +18,20 @@ describe("day #0238", () => {
     hashmap.put(1, 3);
     expect(hashmap.get(1)).toBe(3);
   });
+  test("if we can store strings", () => {
+    const hashmap = createElkesHashmap<string, number>();
+    expect(hashmap.get(1)).toBe(-1);
+    hashmap.put(1, "2");
+    expect(hashmap.get(1)).toBe("2");
+    hashmap.put(1, "3");
+    expect(hashmap.get(1)).toBe("3");
+  });
+  test("if we can store objects", () => {
+    const hashmap = createElkesHashmap<{ foo: string }, number>();
+    expect(hashmap.get(1)).toBe(-1);
+    hashmap.put(1, { foo: "2" });
+    expect(hashmap.get(1)).toStrictEqual({ foo: "2" });
+    hashmap.put(1, { foo: "3" });
+    expect(hashmap.get(1)).toStrictEqual({ foo: "3" });
+  });
 });
