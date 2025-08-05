@@ -13,8 +13,7 @@ export function addOperators(origin: number, target: number): Array<string> {
   let results: Array<string> = [];
   while (queue.length > 0) {
     let { remainder, result } = queue.shift()!;
-    const firstDigit = remainder[0];
-    const newRemainder = remainder.slice(1);
+    const [firstDigit, ...newRemainder] = remainder;
     operators.forEach((operator) => {
       const finalResult = operator(firstDigit, result);
       if (newRemainder.length === 0 && eval(finalResult) === target) {
