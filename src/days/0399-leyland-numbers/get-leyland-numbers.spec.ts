@@ -1,5 +1,8 @@
 import { describe, expect, test } from "vitest";
-import { getLeylandNumbers } from "./get-leyland-numbers";
+import {
+  getLeylandNumbersWithSet,
+  getLeylandNumbers,
+} from "./get-leyland-numbers";
 
 describe("day #0399", () => {
   test("examples", () => {
@@ -14,5 +17,9 @@ describe("day #0399", () => {
       32993, 60049, 65792, 69632, 93312, 94932, 131361, 178478, 262468, 268705,
       397585, 423393, 524649, 533169, 1048976,
     ]);
+  });
+  test("examples with a Set solution", () => {
+    expect(getLeylandNumbersWithSet(1)).toStrictEqual([8]);
+    expect(getLeylandNumbersWithSet(5)).toStrictEqual([8, 17, 32, 54, 57]);
   });
 });

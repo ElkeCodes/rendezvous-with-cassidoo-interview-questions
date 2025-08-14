@@ -19,3 +19,13 @@ export function getLeylandNumbers(amount: number): Array<number> {
   }
   return result.sort((a, b) => a - b).slice(0, amount);
 }
+
+export function getLeylandNumbersWithSet(n: number): number[] {
+  const result = new Set<number>();
+  for (let x = 2; result.size < n**2; x++) {
+    for (let y = 2; y <= x; y++) {
+      result.add(x**y + y**x);
+    }
+  }
+  return [...result].sort((a, b) => a - b).slice(0, n);
+}
