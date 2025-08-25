@@ -8,7 +8,7 @@ export function orderSummary(
     orderSummary[table] = items.reduce((tableOrder, item) => {
       tableOrder[item] = (tableOrder[item] ?? 0) + 1;
       return tableOrder;
-    }, orderSummary[table] || {});
+    }, orderSummary[table] ?? {});
     return orderSummary;
   }, {} as OrderSummary);
 }
