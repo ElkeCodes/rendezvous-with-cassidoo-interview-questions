@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { toRomanNumeral } from "./to-roman-numeral";
 
-describe("day #0001", () => {
+describe("question #0001", () => {
   test("toRomanNumeral", () => {
     expect(toRomanNumeral(1)).toBe("I");
     expect(toRomanNumeral(2)).toBe("II");

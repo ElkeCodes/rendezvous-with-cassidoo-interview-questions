@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { postfix } from "./postfix";
 
-describe("day #0002", () => {
+describe("question #0002", () => {
   test("example", () => {
     expect(postfix("5 4 * 6 2 / +")).toBe(23);
   });

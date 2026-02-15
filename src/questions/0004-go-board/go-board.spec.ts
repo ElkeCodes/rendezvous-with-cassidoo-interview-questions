@@ -12,7 +12,7 @@ const makeBoard = (rows: Array<Array<Stone>>): GoBoard => ({
   grid: rows.map((row) => [...row]),
 });
 
-describe("day #0004", () => {
+describe("question #0004", () => {
   test("createBoard fills empty grid", () => {
     const board = createBoard(3);
 

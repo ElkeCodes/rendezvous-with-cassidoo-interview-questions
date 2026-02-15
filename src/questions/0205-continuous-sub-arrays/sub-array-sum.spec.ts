@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { subarraySum } from "./sub-array-sum";
 
-describe("day #0205", () => {
+describe("question #0205", () => {
   test("example", () => {
     expect(subarraySum([10, 2, -2, -20, 10], -10)).toBe(3);
   });

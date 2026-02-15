@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { removeDuplicateCharacters } from "./remove-duplicate-characters";
 
-describe("day #0007 bonus", () => {
+describe("question #0007 bonus", () => {
   test("removeDuplicateCharacters", () => {
     expect(removeDuplicateCharacters("test")).toBe("es");
     expect(removeDuplicateCharacters("tes")).toBe("tes");

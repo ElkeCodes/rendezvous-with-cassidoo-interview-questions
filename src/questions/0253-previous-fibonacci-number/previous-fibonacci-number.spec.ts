@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { previousFibonacciNumber } from "./previous-fibonacci-number";
 
-describe("day #0253", () => {
+describe("question #0253", () => {
   test("correct fibonacci numbers", () => {
     expect(previousFibonacciNumber(1)).toBe(0);
     expect(previousFibonacciNumber(2)).toBe(1);

@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { countPerfectlyRoundCookies } from "./count-perfectly-round-cookies";
 
-describe("day #0384", () => {
+describe("question #0384", () => {
   test("examples", () => {
     expect(countPerfectlyRoundCookies(5)).toBe(1);
     expect(countPerfectlyRoundCookies(10)).toBe(2);

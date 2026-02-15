@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { groupAudioFiles } from "./group-audio-files";
 
-describe("day #0417", () => {
+describe("question #0417", () => {
   test("examples", () => {
     const files = [120, 90, 60, 150, 80];
     const maxDuration = 200;

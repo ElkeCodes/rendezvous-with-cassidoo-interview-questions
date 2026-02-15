@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { nestArray } from "./nest-array";
 
-describe("day #0407", () => {
+describe("question #0407", () => {
   test("examples", () => {
     expect(nestArray([1, 2, 3, 4])).toStrictEqual([1, [2, [3, [4]]]]);
     expect(nestArray([1])).toStrictEqual([1]);

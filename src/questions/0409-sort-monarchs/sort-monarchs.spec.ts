@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { sortMonarchs } from "./sort-monarchs";
 
-describe("day #0409", () => {
+describe("question #0409", () => {
   test("examples", () => {
     expect(
       sortMonarchs(["Louis IX", "Louis VIII", "Philip II", "Philip I"]),

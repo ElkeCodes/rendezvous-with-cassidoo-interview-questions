@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { mealPrep } from "./meal-prep";
 
-describe("day #0380", () => {
+describe("question #0380", () => {
   test("examples", () => {
     expect(mealPrep([120])).toBe(2);
     expect(mealPrep([30, 30, 30, 20])).toBe(1);

@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { QueueWithTwoStacks } from "./queue-with-two-stacks";
 
-describe("day #0005", () => {
+describe("question #0005", () => {
   test("if data can be queued and dequeued from the queue", () => {
     const queue = new QueueWithTwoStacks<number>();
     expect(queue.dequeue()).toBeUndefined();

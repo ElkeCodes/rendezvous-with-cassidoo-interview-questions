@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { compress } from "./compress";
 
-describe("day #0402", () => {
+describe("question #0402", () => {
   test("examples", () => {
     expect(compress(["a", "b", "b", "b", "c"])).toStrictEqual([
       "a",

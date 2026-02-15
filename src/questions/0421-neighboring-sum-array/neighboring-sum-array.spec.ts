@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { neighboringSumArray } from "./neighboring-sum-array";
 
-describe("day #0421", () => {
+describe("question #0421", () => {
   test("examples", () => {
     expect(neighboringSumArray([])).toBe(0);
     expect(neighboringSumArray([1])).toBe(1);

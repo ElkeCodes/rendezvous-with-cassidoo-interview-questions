@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { splitByWidths } from "./split-by-widths";
 
-describe("day #0427", () => {
+describe("question #0427", () => {
   test("example", () => {
     const str = "Supercalifragilisticexpialidocious";
     const widths = [5, 9, 4];

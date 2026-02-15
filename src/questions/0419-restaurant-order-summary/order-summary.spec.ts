@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { orderSummary } from "./order-summary";
 
-describe("day #0419", () => {
+describe("question #0419", () => {
   test("examples", () => {
     const orders = [
       { table: 1, items: ["burger", "fries"] },

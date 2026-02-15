@@ -1,7 +1,7 @@
 import { describe, expect, test, vi } from "vitest";
 import { drawCube } from "./draw-cube.ts";
 
-describe("day #0405", () => {
+describe("question #0405", () => {
   test("example n=2", () => {
     const logSpy = vi.spyOn(console, "log");
     drawCube(2);

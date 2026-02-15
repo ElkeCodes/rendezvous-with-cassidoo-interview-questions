@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { createElkesHashmap } from "./create-elkes-hashmap";
 
-describe("day #0238", () => {
+describe("question #0238", () => {
   test("if data can be put and removed from the hashmap", () => {
     const hashmap = createElkesHashmap();
     expect(hashmap.get(1)).toBe(-1);

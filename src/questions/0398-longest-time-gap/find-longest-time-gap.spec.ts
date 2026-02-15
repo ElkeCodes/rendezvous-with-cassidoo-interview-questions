@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { findLongestTimeGap } from "./find-longest-time-gap";
 
-describe("day #0398", () => {
+describe("question #0398", () => {
   test("examples", () => {
     expect(findLongestTimeGap(["12:00"])).toBe(0);
     expect(findLongestTimeGap(["09:00", "11:00"])).toBe(120);

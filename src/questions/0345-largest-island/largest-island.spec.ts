@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { getSurroundingCoordinates, largestIsland } from "./largest-island";
 
-describe("day #0345", () => {
+describe("question #0345", () => {
   test("examples", () => {
     let map = [
       [0, 1, 1, 1, 0, 0, 0, 1, 1],

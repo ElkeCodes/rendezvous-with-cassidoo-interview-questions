@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { analyzeBaseballGame, Inning } from "./analyze-baseball-game";
 
-describe("day #0422", () => {
+describe("question #0422", () => {
   test("example", () => {
     const innings: Array<Inning> = [
       [1, 0],

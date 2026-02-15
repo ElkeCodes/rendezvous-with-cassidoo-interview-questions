@@ -4,7 +4,7 @@ import weirdAlYankovicLyrics from "./first_page.txt?raw";
 import noPalindromesFile from "./second_page.txt?raw";
 import onePalindromeFile from "./third_page.txt?raw";
 
-describe("day #0232", () => {
+describe("question #0232", () => {
   describe("Weird Al Yankovic - Bob, a song consisting of only palindromes", () => {
     test("amount of palindromes in a file", () => {
       expect(parsePalindromes(weirdAlYankovicLyrics).amount).toBe(38);

@@ -1,7 +1,7 @@
 import { describe, expect, test, vi } from "vitest";
 import { generateMinesweeper } from "./generate-minesweeper";
 
-describe("day #0208", () => {
+describe("question #0208", () => {
   test("example", () => {
     const logSpy = vi.spyOn(console, "log");
     generateMinesweeper(5, [

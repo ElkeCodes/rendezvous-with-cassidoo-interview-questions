@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { addg } from "./addg";
 
-describe("day #0264", () => {
+describe("question #0264", () => {
   test("example", () => {
     expect(addg()).toBe(undefined);
     expect(addg(2)()).toBe(2);

@@ -4,7 +4,7 @@ import {
   getLeylandNumbers,
 } from "./get-leyland-numbers";
 
-describe("day #0399", () => {
+describe("question #0399", () => {
   test("examples", () => {
     expect(getLeylandNumbers(1)).toStrictEqual([8]);
     expect(getLeylandNumbers(5)).toStrictEqual([8, 17, 32, 54, 57]);

@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { nonRepeat } from "./non-repeat";
 
-describe("day #0411", () => {
+describe("question #0411", () => {
   test("example", () => {
     expect(nonRepeat("candy canes do taste yummy")).toBe("u");
   });

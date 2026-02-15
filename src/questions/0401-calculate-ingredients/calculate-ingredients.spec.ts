@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { calculateIngredients } from "./calculate-ingredients";
 
-describe("day #0401", () => {
+describe("question #0401", () => {
   test("examples", () => {
     expect(
       calculateIngredients(

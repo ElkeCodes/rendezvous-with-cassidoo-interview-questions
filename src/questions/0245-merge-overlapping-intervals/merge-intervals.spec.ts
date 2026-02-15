@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { mergeIntervals } from "./merge-intervals";
 
-describe("day #0245", () => {
+describe("question #0245", () => {
   test("examples", () => {
     expect(
       mergeIntervals([

@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { squares, squaresIterative } from "./squares";
 
-describe("day #0364", () => {
+describe("question #0364", () => {
   describe("recursive", () => {
     test("example", () => {
       expect(squares(5)).toBe(55);

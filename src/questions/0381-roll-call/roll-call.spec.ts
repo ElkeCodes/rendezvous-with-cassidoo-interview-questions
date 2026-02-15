@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { rollCall } from "./roll-call";
 
-describe("day #0381", () => {
+describe("question #0381", () => {
   test("examples", () => {
     expect(rollCall(["yzneT", "ydissaC", "enimA"])).toStrictEqual([
       "Amine",

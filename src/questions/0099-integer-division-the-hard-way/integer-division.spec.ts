@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { integerDivision } from "./integer-division";
 
-describe("day #0099", () => {
+describe("question #0099", () => {
   test("examples", () => {
     expect(integerDivision(6, 3)).toBe(2);
     expect(integerDivision(99, 11)).toBe(9);

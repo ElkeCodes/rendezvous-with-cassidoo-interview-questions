@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { oddSum } from "./odd-sum";
 
-describe("day #0406", () => {
+describe("question #0406", () => {
   test("examples", () => {
     expect(oddSum([9, 14, 6, 2, 11], [8, 4, 7, 20])).toStrictEqual([
       [9, 8],

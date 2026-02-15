@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { permute } from "./permute";
 
-describe("day #0386", () => {
+describe("question #0386", () => {
   test("example", () => {
     expect(permute("abc")).toStrictEqual([
       "abc",

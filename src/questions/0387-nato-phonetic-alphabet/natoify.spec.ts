@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { natoify } from "./natoify";
 
-describe("day #0387", () => {
+describe("question #0387", () => {
   test("examples", () => {
     expect(natoify("hello world")).toBe(
       "Hotel Echo Lima Lima Oscar (space) Whiskey Oscar Romeo Lima Delta",

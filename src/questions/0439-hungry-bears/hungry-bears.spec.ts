@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { hungryBears } from "./hungry-bears";
 
-describe("day #0439", () => {
+describe("question #0439", () => {
   test("example", () => {
     const bears = [
       { name: "Baloo", hunger: 6 },

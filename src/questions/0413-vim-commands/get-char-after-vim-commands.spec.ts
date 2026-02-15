@@ -4,7 +4,7 @@ import {
   VIM_COMMAND_KEYS,
 } from "./get-char-after-vim-commands";
 
-describe("day #0413", () => {
+describe("question #0413", () => {
   test("example multiline string", () => {
     const string = `Hello, world!
 how are ya?`;

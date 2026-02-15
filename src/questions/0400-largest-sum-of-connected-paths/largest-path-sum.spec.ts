@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { largestPathSum } from "./largest-path-sum";
 
-describe("day #0400", () => {
+describe("question #0400", () => {
   test("examples", () => {
     expect(
       largestPathSum([

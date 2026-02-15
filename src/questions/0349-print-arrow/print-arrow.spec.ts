@@ -1,7 +1,7 @@
 import { describe, expect, test, vi } from "vitest";
 import { printArrow } from "./print-arrow";
 
-describe("day #0349", () => {
+describe("question #0349", () => {
   test("example right 3", () => {
     const logSpy = vi.spyOn(console, "log");
     printArrow("right", 3);

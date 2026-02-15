@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { minAssemblyTime } from "./min-assembly-time";
 
-describe("day #0414", () => {
+describe("question #0414", () => {
   test("example", () => {
     expect(
       minAssemblyTime([

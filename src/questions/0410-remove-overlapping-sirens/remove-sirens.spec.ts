@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { removeSirens } from "./remove-sirens";
 
-describe("day #0410", () => {
+describe("question #0410", () => {
   test("examples", () => {
     expect(
       removeSirens([

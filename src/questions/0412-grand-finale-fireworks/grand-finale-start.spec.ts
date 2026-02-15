@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { grandFinaleStart } from "./grand-finale-start";
 
-describe("day #0412", () => {
+describe("question #0412", () => {
   test("example", () => {
     expect(
       grandFinaleStart([

@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { konamiMapping } from "./konami-mapping";
 
-describe("day #0440", () => {
+describe("question #0440", () => {
   test("example", () => {
     expect(konamiMapping("xx2233454590yy11110")).toStrictEqual({
       "0": "A",

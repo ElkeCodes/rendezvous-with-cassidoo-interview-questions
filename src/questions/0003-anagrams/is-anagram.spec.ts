@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { isAnagram } from "./is-anagram";
 
-describe("day #0003", () => {
+describe("question #0003", () => {
   test("isAnagram", () => {
     expect(isAnagram("New York Times", "monkeys write")).toBeTruthy();
     expect(

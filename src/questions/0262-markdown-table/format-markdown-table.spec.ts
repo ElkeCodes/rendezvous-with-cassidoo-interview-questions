@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { formatMarkdownTable } from "./format-markdown-table";
 
-describe("day #0262", () => {
+describe("question #0262", () => {
   test("example", () => {
     expect(
       formatMarkdownTable([

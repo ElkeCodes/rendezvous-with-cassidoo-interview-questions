@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { minMonsterDistance } from "./min-monster-distance";
 
-describe("day #0416", () => {
+describe("question #0416", () => {
   test("examples", () => {
     let monsters = [3, 8, 10, 15];
     let d = 6;

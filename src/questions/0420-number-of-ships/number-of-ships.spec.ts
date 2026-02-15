@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { numberOfShips } from "./number-of-ships";
 
-describe("day #0420", () => {
+describe("question #0420", () => {
   test("example", () => {
     const ships = [
       ["X", "X", ".", "X"],

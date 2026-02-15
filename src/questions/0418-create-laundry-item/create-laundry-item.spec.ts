@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { createLaundryItem } from "./create-laundry-item";
 
-describe("day #0418", () => {
+describe("question #0418", () => {
   test("examples", () => {
     let towel = createLaundryItem();
 
