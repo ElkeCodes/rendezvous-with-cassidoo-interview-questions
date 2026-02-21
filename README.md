@@ -20,6 +20,8 @@ This repository uses the following tech stack:
  - Prettier
  - eslint
 
+All solutions can be found in the `sr/questions` folder.
+
 ## How is the code run?
 
 1. Clone this repository locally
